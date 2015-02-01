@@ -1,0 +1,94 @@
+@import 'reset';
+
+.layout {
+	font-family: sans-serif;
+	background-image: url(http://ocw.usu.edu/University_Extension/conversation-on-instructional-design/conversation.jpg)
+}
+
+.title {
+	font-size: 2em;
+	display: block;
+	padding-left: 45%;
+	margin-top: 0.5em;
+	color: #E80738;
+	text-decoration: underline;
+}
+
+
+.chatBox{
+	height: 25em;
+	width: 30em;
+	background-color: white;
+	position:absolute;
+    z-index:15;
+    top:25%;
+    left:50%;
+    margin:-100px 0 0 -150px;
+    border: solid #8AA4ED 5px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    overflow: scroll;
+    text-align: left;
+}
+
+.chatBox p, .chatRooms p {
+	
+	// background-color: #89D948;
+	// border-bottom: solid #8AA4ED 5px;
+	padding-left: 1em;
+	text-align: center;
+	position: fixed;
+	margin-bottom: 1em;
+}
+
+
+.text1 li {
+	display: inline;
+}
+
+.chatRooms {
+	height: 25em;
+	width: 10em;
+	background-color: #F0CCD0;
+	position:absolute;
+    z-index:15;
+    top:25%;
+    left:38%;
+    margin:-100px 0 0 -150px;
+    border: solid #8AA4ED 5px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#user {
+	padding-top: 32%;
+	padding-left: 27%;
+	color: #E80738;
+}
+
+#userCreate, #message {
+	height: 2em;
+	width: 40em;
+	background-color: #CCF0EC;
+	border: solid #8AA4ED 2px;
+	font-size: 1em;
+}
+
+.text1 {
+
+}
+
+
+#message {
+	height: 6em;
+}
+
+#userSubmit, #getMessages {
+	font-size: 1em;
+}
+
+.messagePost{
+	    margin-left: 1em;
+	    text-align: left;
+	    background-color: blue;
+}
