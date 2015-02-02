@@ -1,2 +1,0 @@
-# ChatscapeFE
-Chat App Repo
